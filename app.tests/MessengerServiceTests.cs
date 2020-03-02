@@ -31,7 +31,7 @@ namespace App.Tests
             string payload = "Test";
             var target = new MessengerService(payload);
             
-            string expected = "Hey, Test!";
+            string expected = "Hello, Test!";
             string actual = target.GetMessage();
 
             Assert.Equal(expected, actual);
