@@ -9,3 +9,4 @@ steps:
   workingDirectory: ./app.tests/
 - script: dotnet run
   displayName: Run .NET application
+  workingDirectory: ./app/
