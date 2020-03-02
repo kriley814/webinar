@@ -1,5 +1,4 @@
-triggers:
-- master
+
 pool:
   vmImage: ubuntu-latest
 container: mcr.microsoft.com/dotnet/core/sdk:3.0
